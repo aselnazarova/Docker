@@ -1,5 +1,5 @@
-version: '3'
-services:
+version: '3'  #requirement to have
+services:     #requirement to have 
     web:
         image: nginx
         container_name: my-nginx
